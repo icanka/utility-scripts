@@ -1,0 +1,4 @@
+docker cp foo.txt 72ca2488b353:/foo.txt
+docker exec -it container-name /bin/bash
+docker logs -f container_name
+docker image save -o docker-images.tar ansible/awx:17.1.0 nginx:1.19.8 nginx:1.19.8-perl nginx:stable
